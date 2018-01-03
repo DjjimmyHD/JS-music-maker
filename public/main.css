@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  font-family: 'Anton', sans-serif;
+}
+span {
+  color: white;
+}
+
+.container { 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+
+
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 5px solid red;
+
+ 
+}
+.playing {
+  background-color: green;
+  border: 5px solid yellow;
+  transform: skewX(10deg);
+}
