@@ -1,3 +1,6 @@
+if (window.screen.width) {
+    
+}
 window.addEventListener('keydown', function (e) {
 
     const music = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -15,3 +18,4 @@ window.addEventListener('keydown', function (e) {
     }
 });
        
+console.log(window.screen.width);
